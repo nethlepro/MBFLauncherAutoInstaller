@@ -8,3 +8,4 @@ ps2exe "install.ps1" "debug.exe" -noConsole
 
 # Run the generated test.exe
 Start-Process -FilePath "debug.exe" -Wait
+Get-Process
